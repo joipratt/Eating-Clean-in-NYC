@@ -22,6 +22,5 @@ Kaggle Data Sets
 
 With Google Data
 1.	User Reviews v. Cleanliness
-2.	Distance From Subway
-    a.	Cleanliness
-    b.	User Reviews
+2.	Distance From Subway Cleanliness
+3.  Distance From Subway User Reviews
