@@ -1,9 +1,13 @@
 Eating “Clean” in New York City
 
 Abstract
-What is NYC known for? Good food and big rats. Our project aims to help residents and tourists both figure out where in the city they can find the “cleanest” food while avoiding those pesky sidewalk critters.
 
-We will do this by combining the two data sets listed above and asking some of the below questions. We hope to also integrate Google Maps API to pull in restaurant user review scores and distance from subway stops.
+What is NYC known for? Good food and big rats. Our project aims to help residents and tourists both figure out exactly where they do not want to eat.
+
+We will do this by reviewing 26,000 restaurants that have received health code violations between 2010 and 2017. We will count how many violations each restaurant has received, count how many rat sightings have occured in the neighborhoods in which they are located, measure how far each restaurant is from the nearest subway, and finally integrate Google user reviews to form our own scorecard for each restaurant and determine the grossest restaurant in New York.
+
+In New York, dining out is one of the best things to do, and we would like to know which restaurants we absolutely should avoid. WE WILL FIND YOU, WE WILL EXPOSE YOU!
+
 
 Data Sources 
 
@@ -12,15 +16,24 @@ Data Sources
 - Google Places API 
 - Google Distance Matrix API
 
+Steps
+
+1.     Data Consolidation of 2 CSV files
+2.     User Reviews and Lat/Long from Google Places API
+3.     Distance from Subways using Google Distance Matrix API
+4.     Make Visualizaitons
+
+Proposed Visualizations
+
+1.     Data Breakdown
+2.     Correlation of Variables
+3.     Scorecard
+
 Research Questions
 
-Kaggle Data Sets
 1.	Food Type Cleanliness by Borough
 2.	Cleanest Borough
 3.	Rats v. Cleanliness by Zip
-4.	Google Maps API
-
-With Google Data
-1.	User Reviews v. Cleanliness
-2.	Distance From Subway Cleanliness
-3.  Distance From Subway User Reviews
+4.	User Reviews v. Cleanliness
+5.	Distance From Subway Cleanliness
+6.      Distance From Subway User Reviews
